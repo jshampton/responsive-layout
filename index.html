@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Responsive Website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="mystyle.css">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700" rel="stylesheet">
+	</head>
+
+	<body> <!-- BODY OPENS -->
+
+		<header class="clearfix"> <!-- HEADER OPENS -->			
+			<div id="logo"> <!-- TITLE/LOGO OPENS -->
+				<h1>Student Name</h1>
+			</div> <!-- TITLE/LOGO CLOSES -->
+			<ul id="main-nav"> <!-- NAV OPENS -->
+				<li><a class="home" href="#logo">Home</a></li>
+				<li><a class="portfolio" href="#portfolio">Portfolio</a></li>
+				<li><a class="skills" href="#skills">Skills</a></li>
+				<li><a class="contact" href="#contact">Contact</a></li>
+			</ul> <!-- NAV CLOSES -->
+			<div id="intro"> <!-- INTRO OPENS -->
+				<p>Hi, I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+			</div><!-- INTRO CLOSES -->
+			<img id="profile-image" src="images/responsive-layout-profile.png" alt="Profile Portrait">
+		</header> <!-- HEADER CLOSING TAG -->
+
+		<div id="portfolio" class="clearfix"> <!-- PORTFOLIO WRAPPER OPENS -->
+			<h2>Portfolio</h2>
+			<ul id="portfolio-list" class="clearfix"> <!-- PORTFOLIO UNORDERED LIST OPENS -->
+				<li class="portfolio-item">
+					<img class="portfolio-image" src="images/portfolio-1.png" alt="Marketing Page">
+					<h3>Marketing Page</h3>
+					<p>This project shows the front page of a marketing website meant to be for a specific business I'm interested in.</p>
+				</li>
+
+				<li class="portfolio-item">
+					<img class="portfolio-image" src="images/portfolio-2.png" alt="Search Page">
+					<h3>Search Page</h3>
+					<p>This porject searches through a specific database to find information that the user is trying to look up.</p>
+				</li>
+
+				<li class="portfolio-item">
+					<img class="portfolio-image" src="images/portfolio-3.png" alt="Travel App">
+					<h3>Travel App</h3>
+					<p>This porject compares travel times based on different transportation methods and tells you the best one.</p>
+				</li>
+
+				<li class="portfolio-item">
+					<img class="portfolio-image" src="images/portfolio-6.png" alt="Map of Favourite Spots">
+					<h3>Map of Favourite Spots</h3>
+					<p>This project uses mapping apis to plot points of my favourite spots in the city for a do-it-yourself walking tour.</p>
+				</li>
+
+				<li class="portfolio-item">
+					<img class="portfolio-image" src="images/portfolio-5.png" alt="Photo Gallery">
+					<h3>Photo Gallery</h3>
+					<p>This project shows pictures from a recent trip to a viewer and allows them to easily navigate through photos.</p>
+				</li>
+
+				<li class="portfolio-item">
+					<img class="portfolio-image" src="images/portfolio-4.png" alt="Calculator">
+					<h3>Calculator</h3>
+					<p>Someone can enter in the numbers they want, and press the big blue button and get the results.</p>
+				</li>
+				
+				<li class="portfolio-item">
+					<img class="portfolio-image" src="images/portfolio-7.png" alt="Media Player">
+					<h3>Media Player</h3>
+					<p>This allows users to view a video on the site, in a pop up lightbox format.</p>
+				</li>
+				
+				<li class="portfolio-item">
+					<img class="portfolio-image" src="images/portfolio-12.png" alt="Form">
+					<h3>Form</h3>
+					<p>Users can submit their question and queries in this form.</p>
+				</li>
+				
+				<li class="portfolio-item">
+					<img class="portfolio-image" src="images/portfolio-13.png" alt="Cookie Bar">
+					<h3>Cookie Bar</h3>
+					<p>Important and extra information being displayed in a cookie bar format.</p>
+				</li>
+			</ul> <!-- PORTFOLIO UNORDERED LIST CLOSES -->
+			
+		</div> <!-- PORTFOLIO DIV CLOSES -->
+
+		<div id="skills" class="clearfix"> <!-- SKILLS WRAPPER OPENS -->
+			<h2>Skills</h2>
+				<div class="skills-list">
+					<h3>Digital Skills</h3>
+					<ul>
+						<li class="skills-item">HTML5</li>
+						<li class="skills-item">CSS3</li>
+						<li class="skills-item">Javascript</li>
+					</ul>
+				</div>
+				<div class="skills-list">
+					<h3>Design Skills</h3>
+					<ul>
+						<li class="skills-item">Typography</li>
+						<li class="skills-item">Vector Graphics</li>
+						<li class="skills-item">Page Layout</li>
+					</ul>
+				</div>
+				<div class="skills-list">
+					<h3>Software Skills</h3>
+					<ul>
+						<li class="skills-item">Adobe Photoshop</li>
+						<li class="skills-item">Adobe Muse</li>
+						<li class="skills-item">Balsamiq</li>
+					</ul>
+				</div>
+		</div> <!-- SKILLS WRAPPER CLOSES -->
+
+		<div id="footer-wrapper" class="clearfix"> <!-- FOOTER WRAPPER OPENS -->
+			 <!-- CONTACT SECTION OPENS -->
+				<h2>Contact</h2>
+			<div id="contact">
+				<p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+					<p>Phone: <a class="contact-details" href="tel:01234567890">01234 567890</a></p>
+					<p>Email: <a class="contact-details" href="mailto:email@jennyhampton.co.uk">hello@jennyhampton.co.uk</a></p>
+			</div> <!-- CONTACT SECTIONS CLOSES -->
+			
+			<footer id="main-footer" class="clearfix"> <!-- FOOTER OPENS -->
+					<p class="align-left">Student Name</p>
+					<p id="small-footer-menu" class="align-right"><a href="#logo">Back to Top</a></p>
+					<ul id="large-footer-menu" class="align-right">
+						<li><a class="home" href="#logo">Home</a></li>
+						<li><a class="portfolio" href="#portfolio">Portfolio</a></li>
+						<li><a class="skills" href="#skills">Skills</a></li>
+						<li><a class="contact" href="#contact">Contact</a></li>
+					</ul>
+			</footer><!-- FOOTER CLOSES -->
+		</div> <!-- FOOTER WRAPPER CLOSES -->
+
+	</body> <!-- BODY CLOSES -->

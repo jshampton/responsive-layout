@@ -1,0 +1,341 @@
+/* ----------------------------------------------------------------------------------------
+					    	GENERAL STYLING - MOBILE FIRST 320px
+---------------------------------------------------------------------------------------- */
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 12px;
+	color: #444;
+}
+
+p {
+	font-weight: 300;
+	padding: 0;
+	font-size: 1.083em;
+	line-height: 1.5;
+}
+
+h2 {
+	padding: 40px 0 20px;
+	text-transform: uppercase;
+	font-size: 1.167em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: #444;
+}
+
+ul, li {
+	list-style: none;
+	font-weight: 700;
+}
+
+img {
+	max-width: 100%;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* --------------------------------- HEADER STYLING ------------------------------------ */
+
+header {
+	background-color: #f8f8f8;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 5px solid #AFD0D2;	
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+}
+
+       /* ------------------------- MAIN-NAV STYLING ---------------------------- */       
+
+#main-nav {
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-size: 1.333em;
+}
+
+#main-nav a:hover {
+	color: #0099cc;
+}
+
+#main-nav li {
+	background: #fff;
+	padding: 10px 40px;
+	margin: 5px 7%;
+}
+
+#intro {
+	padding: 0 0 30px 7%;
+	font-size: 1.167em;
+	color: #888;
+}
+
+#profile-image {
+	width: 250px;
+	margin: 10px 0;
+}
+
+/* ---------------------------- MAIN BODY/CONTENT STYLING ------------------------------ */
+
+      /* ------------------------- PORTFOLIO STYLING ---------------------------- */
+
+#portfolio {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 17.5px;
+}
+
+#portfolio-list {
+	margin: 0;
+	padding: 0;
+}
+
+.portfolio-item {
+	padding-bottom: 20px;
+}
+
+.portfolio-image {
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+      /* ------------------------- SKILLS LIST STYLING --------------------------- */
+
+#skills {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+	padding-bottom: 60px;
+	border-radius: 20px;
+	color: white;
+	background-color: #AFD0D2;
+}
+
+#skills h2 {
+	margin: 0 auto;
+	color: black;
+}
+
+.skills-list ul{
+	padding: 0;
+	margin: 0;
+	line-height: 2;
+}
+
+
+/* ---------------------------------- FOOTER STYLING ----------------------------------- */
+
+#footer-wrapper {
+	max-width: 100%;
+	margin: 6% auto 0;
+	padding: 0 7%;
+	background-color: #f8f8f8;
+	text-align: center;
+	border-top: 3px solid #AFD0D2;
+}
+
+#contact {
+	font-size: 1.167em;
+	padding-bottom: 50px;
+}
+
+.contact-details {
+	font-weight: 700;
+}
+
+#main-footer {
+	border-top: 1px solid #ddd;
+	padding: 20px 0;
+}
+
+#main-footer p {
+	font-weight: 700;
+	color: #444;
+}
+
+#main-footer .align-left {
+	float: left;
+	margin: 0;
+}
+
+#main-footer .align-right {
+	float: right;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+/* ------------------------------- HIDDEN FOOTER MENU ---------------------------------- */
+
+@media screen and (max-width:767px) {
+
+	#large-footer-menu {
+		display: none;
+	}
+}
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------
+						     RESPONSIVE STYLING - TABLET 768
+---------------------------------------------------------------------------------------- */
+
+@media screen and (min-width:768px) {
+
+/* --------------------------------- HEADER STYLING ------------------------------------ */
+
+	header {
+		padding-bottom: 30px;
+	}
+
+	#logo {
+		padding-top: 50px;
+	}
+
+	    /* ------------------------- MAIN-NAV STYLING ---------------------------- */
+   
+	#main-nav li {
+		display: inline-block;
+		background: none;
+		margin: 0;
+		padding: 10px 20px;
+		font-size: 1em;
+	}
+
+	#intro {
+		width: 45%;
+		float: left;
+		text-align: left;
+		padding-left: 7%;
+		font-size: 1.333em;
+		clear: both;
+	}
+
+	#profile-image {
+		width: 38%;
+		float: right;
+		padding-right: 7%;
+	}
+
+/* -------------------------------- PORTFOLIO STYLING ---------------------------------- */
+
+	.portfolio-item {
+		max-width: 48%;
+		float: left;
+		margin: 0 1%;
+		min-height: 360px;
+	}
+
+	.portfolio-item p {
+		padding: 0 30px;	
+	}
+
+/* -------------------------------- PORTFOLIO STYLING ---------------------------------- */
+
+	#skills {
+		margin: 0 auto;
+	}
+
+	.skills-list {
+		width: 150px;
+		display: inline-block;
+		margin: 0 auto;
+		padding: 0 5%;
+	}
+
+/* ---------------------------------- FOOTER STYLING ----------------------------------- */
+
+	#main-footer {
+		padding: 30px 5px;
+	}
+	
+	#main-footer li{
+		display: inline;
+		padding: 0 15px;
+	}
+	
+	#contact p {
+		padding: 0 20%;
+		font-size: 1.25em;
+	}
+	
+	#small-footer-menu {
+		display: none;
+	}
+	
+	#large-footer-menu {
+		margin: 0;
+	}
+
+}
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------
+						     RESPONSIVE STYLING - DESKTOP 1024
+---------------------------------------------------------------------------------------- */
+
+@media screen and (min-width:1024px) {
+
+/* --------------------------------- HEADER STYLING ------------------------------------ */
+	header {
+		padding: 70px 0 60px 0;
+	}
+
+	#logo {
+		margin: 0;
+		padding: 0 0 0 5%;
+		float: left;
+	}
+
+    /* ------------------------- MAIN-NAV STYLING ---------------------------- */
+
+	#main-nav {
+		float: right;
+		padding: 0 5% 0 0;
+	}
+
+	#intro {
+		width: 45%;
+		padding: 40px 0 0 5%;
+		font-size: 1.5em;
+	}
+
+	#profile-image {
+		width: 40%;
+		padding: 40px 5% 0 0;
+	}
+
+/* -------------------------------- PORTFOLIO STYLING ---------------------------------- */
+
+	.portfolio-item {
+		max-width: 31%;
+	}
+
+	.portfolio-item p {
+		font-size: 1.25em;
+	}
+
+}
