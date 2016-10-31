@@ -66,24 +66,24 @@ header {
 
        /* ------------------------- MAIN-NAV STYLING ---------------------------- */       
 
-#main-nav {
+nav {
 	padding: 20px 0;
 	text-transform: uppercase;
 	font-size: 1.333em;
 }
 
-#main-nav a:hover {
+nav a:hover {
 	color: #0099cc;
 }
 
-#main-nav li {
+nav li {
 	background: #fff;
 	padding: 10px 40px;
 	margin: 5px 7%;
 }
 
 #intro {
-	padding: 0 0 30px 7%;
+	padding: 0 40px;
 	font-size: 1.167em;
 	color: #888;
 }
@@ -213,7 +213,7 @@ header {
 
 	    /* ------------------------- MAIN-NAV STYLING ---------------------------- */
    
-	#main-nav li {
+	nav li {
 		display: inline-block;
 		background: none;
 		margin: 0;
@@ -312,7 +312,7 @@ header {
 
     /* ------------------------- MAIN-NAV STYLING ---------------------------- */
 
-	#main-nav {
+	nav {
 		float: right;
 		padding: 0 5% 0 0;
 	}
